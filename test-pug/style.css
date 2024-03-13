@@ -1,0 +1,57 @@
+/* #FF8F8F
+#EEF296
+#9ADE7B
+#508D69 */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* font-family: sans-serif; */
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #fdf7e4;
+}
+
+h1,
+h2 {
+  color: red;
+}
+#img1 {
+  width: 400px;
+}
+#main-title {
+  font-size: 100px;
+  text-align: center;
+  border: 2px solid gray;
+  border-radius: 16px;
+  /* padding-top: 20px;
+  padding-right: 50px;
+  padding-bottom: 100px;
+  padding-left: 150px; */
+  padding: 50px;
+
+  /* margin-top: 20px;
+  margin-right: 50px;
+  margin-bottom: 100px;
+  margin-left: 150px; */
+  margin: 50px;
+  background: center center no-repeat;
+  background-image: url("https://cojo.ru/wp-content/uploads/2022/12/sobaka-mops-1.webp");
+}
+.content {
+  background: blue;
+}
+
+.warning {
+  color: yellow;
+}
+.list {
+  background: green;
+}
+.list li {
+  background: red;
+  border: 2px solid #000;
+  margin-top: 10px;
+}
