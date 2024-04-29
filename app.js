@@ -1,6 +1,13 @@
 const form = document.getElementById("order-form");
 const nameInput = document.getElementById("name");
 const phoneInput = document.getElementById("phone");
+const burger = document.querySelector(".burger");
+const nav = document.querySelector(".nav");
+
+burger.addEventListener("click", () => {
+  nav.classList.toggle("active");
+  burger.classList.toggle("active");
+});
 
 function submitForm(event) {
   event.preventDefault();
